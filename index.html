@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+<style>
+    /* .img{
+        height: 222px;
+width: 500px;
+    } */
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('frnt.png');
+
+        color: black;
+        font-family: 'Balsamiq Sans', cursive;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+        /* border: 1px solid red; */
+        /* border: 2px solid rgb(230, 19, 19); */
+        font-family: 'Balsamiq Sans', cursive;
+
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+background-color:  hotpink;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        font-family: 'Balsamiq Sans', cursive;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 32px;
+        display: inline-block;
+       
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: black;
+        /* background-color: palevioletred; */
+        text-decoration: none;
+        margin: 1px 35px;
+        padding: 8px 1px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+        text-decoration: underline;
+        padding: 20px 10px;
+
+    }
+
+
+    .left img {
+        width: 32.5%;
+        border: 1px solid black;
+        margin: 5px 10px;
+        /* border-rad: 100px; */
+        /* filter: invert(); */
+    }
+
+    .left div {
+    color: hotpink;
+        line-height: 0px;
+        /* font-size: 20px; */
+        text-align: left;
+        width: 200%;
+       
+        /* font-size: 18px; */
+        font-family: 'Balsamiq Sans', cursive;
+
+    }
+
+    .btn {
+        font-family: 'Balsamiq Sans', cursive;
+top:20px;
+        margin: 0px 9px;
+        background-color:rgb(201, 36, 77);
+        color: white;
+        padding: 4px 14px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: black;
+        background-color: grey;
+        /* text-decoration:underline; */
+    }
+
+
+    .btnsub {
+        font-family: 'Balsamiq Sans', cursive;
+
+        margin: 0px 321px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btnsub:hover {
+        color: black;
+        background-color: grey;
+        /* text-decoration:underline; */
+    }
+
+    .btnreset {
+        font-family: 'Balsamiq Sans', cursive;
+
+        /* margin: 0px 0px; */
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btnreset:hover {
+        color: black;
+        background-color: grey;
+        /* text-decoration:underline; */
+    }
+
+
+
+
+
+    .container {
+        border: 2px solid gray;
+        margin: 100px 900px;
+        padding: 75px 75px;
+        border-radius: 3px;
+        width: 25%;
+    }
+    
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: px ;
+        width: 400px;
+        font-size: 25px;
+        margin: 3px auto;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+
+
+    .container h1{
+        text-align: center;
+    }
+    .lgtx{
+        line-height: 2px;
+    }
+
+    
+
+</style>
+
+
+
+
+
+
+
+
+
+<body>
+   
+    <header class="header">
+        <div class="left">
+            <img src="images.jpg" alt="" srcset="">
+            <div class="lgtxt">Briliant Home Tution </div>
+            <!-- <div>care for your chlid </div> -->
+        </div>
+
+        <div class="mid">
+
+            <ul class="navbar">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Need A Tutor</a> </li>
+                <li><a href="#">Contact us</a> </li>
+
+                 
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="container">
+        <!-- <img src="img1.jpg" alt="" srcset=""> -->
+        <h1>
+            Get The Best Tutors At Your Home 
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter The Class Your are Studying">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+
+            </div>
+            <br>
+            <div>
+                <button type="reset" class="btnreset">
+                    Reset</button>
+                <button class="btnsub">Submit</button>
+
+                <!-- <button type="reset" class="btnreset">
+                    Reset</button> -->
+                </div>
+        </form>
+
+        <!-- I am container -->
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- https://bhargavi262000.github.io/Briliant-Home-Tutor/.        -->
